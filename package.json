@@ -1,0 +1,27 @@
+{
+  "name": "typescript-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylrd/typescript-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylrd/typescript-algorithms/issues"
+  },
+  "homepage": "https://github.com/tylrd/typescript-algorithms#readme",
+  "devDependencies": {
+    "ts-lint": "4.5.1",
+    "ts-node": "6.1.1",
+    "typescript": "2.9.2"
+  }
+}
